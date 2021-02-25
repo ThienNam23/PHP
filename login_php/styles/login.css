@@ -1,0 +1,112 @@
+body {
+    background-image: url("../img/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#lr-box {
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 400px;
+    height: 450px;
+    border-radius: 25px;
+    margin: 6% auto;
+    padding: 10px 15px;
+    position: relative;
+    overflow: hidden;
+}
+#toggle-btn-box {
+    margin: 5% auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 1);
+    width: 225px;
+    border-radius: 25px;
+}
+#btn-box {
+    width: 115px;
+    border-radius: 25px;
+    height: 35px;
+    position: absolute;
+    background-image: linear-gradient(to right, #FFFF00, #FF0000);
+    left: 102px;
+    transition: .5s;
+}
+.toggle-btn {
+    width: 95px;
+    height: 35px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px 4px;
+    border: none;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    z-index: 10;
+}
+.lr-form {
+    position: absolute;
+    width: min-content;
+    margin-left: 38px;
+    margin-top: 20px;
+    text-align: center;
+    transition: .5s;
+}
+input {
+    height: 25px;
+    font-size: 15px;
+    width: 300px;
+    outline: none;
+    border: none;
+    background: none;
+    border-bottom: 2px solid black;
+    margin-bottom: 25px;
+    color: black;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.cb-container {
+    display: flex;
+}
+.cb {
+    width: min-content;
+    height: min-content;
+    margin-right: 15px;
+    cursor: pointer;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 1; /* Firefox */
+}
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: black;
+}
+  
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: black;
+}
+#login-form {
+    left: 15px;
+}
+#register-form {
+    left: 450px;
+}
+.lr-btn {
+    border: none;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 5px;
+    width: 220px;
+    background-image: linear-gradient(to right, #FFFF00, #FF0000);
+    border-radius: 25px;
+    cursor: pointer;
+}
+.error-mess {
+    text-align: left;
+    color: red;
+}

@@ -1,0 +1,48 @@
+body {
+    background-image: url("../img/Peacefull.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: cursive;
+}
+#header-box {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 55px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.user-header-box {
+    position: absolute;
+    right: 20px;
+    margin-top: 15px;
+}
+.profile-btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+    background-color: rgba(255, 255, 255, 0);
+    background-image: transparent;
+}
+.index-mess {
+    height: 50px;
+    border-radius: 25px;
+    background-color: #fff;
+    width: max-content;
+    position: relative;
+    margin: 15% auto;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    /* font-family: cursive; */
+    padding: 10px 20px 0px 20px;
+}
+.border-red {
+    border: 5px solid red;
+}
+.border-green {
+    border: 5px solid #01DF01;
+}
